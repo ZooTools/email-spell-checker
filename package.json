@@ -3,13 +3,13 @@
   "name": "@zootools/email-spell-checker",
   "version": "1.2.0",
   "description": "mailSpellChecker.js (mail spell checker) is a lightweight module that suggests a right domain when your users misspell it in an email address",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
-    "clean": "rm -rf ./lib/",
+    "clean": "rm -rf ./dist/",
     "cm": "cz",
     "lint": "eslint ./src/ --fix",
     "prepare": "husky install",
