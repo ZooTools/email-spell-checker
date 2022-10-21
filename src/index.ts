@@ -1,8 +1,8 @@
-import checkMail from './lib/check-mail';
+import run from './lib/run';
 import { POPULAR_DOMAINS } from './lib/config';
 
 const MailSpellChecker = {
-  run: checkMail,
+  run,
   POPULAR_DOMAINS,
 };
 
