@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://zootools.co">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.zootools.co/email-spell-checker/email-spell-checker-dark-mode.png?raw=true">
-      <img src="https://github.zootools.co/email-spell-checker/email-spell-checker-light-mode.png?raw=true" height="128">
+      <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/email-spell-checker-dark-mode.png?raw=true">
+      <img src="https://open-source.zootools.co/email-spell-checker/email-spell-checker-light-mode.png?raw=true" height="128">
     </picture>
     <p align="center">
       🔐 Reduce failed authentication ⬆️ Increase emails delivery ⚡️ Built for speed
@@ -21,6 +21,7 @@
 # @zootools/email-spell-checker
 
 [![npm package][npm-img]][npm-url]
+[![npm package][bundlephobia-img]][bundlephobia-url]
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
@@ -144,6 +145,7 @@ Lorem ipsum.
 [downloads-url]: https://www.npmtrends.com/@zootools/email-spell-checker
 [npm-img]: https://img.shields.io/npm/v/@zootools/email-spell-checker
 [npm-url]: https://www.npmjs.com/package/@zootools/email-spell-checker
+[bundlephobia-url]: https://badgen.net/bundlephobia/minzip/@zootools/email-spell-checker
 [issues-img]: https://img.shields.io/github/issues/zootools/email-spell-checker
 [issues-url]: https://github.com/zootools/email-spell-checker/issues
 [codecov-img]: https://codecov.io/gh/zootools/@zootools/email-spell-checker/branch/main/graph/badge.svg
