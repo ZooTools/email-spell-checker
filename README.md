@@ -9,7 +9,7 @@
     </p>
     <h1 align="center">The best way to check a misspelled email address in JavaScript</h1>
     <p align="center">
-      <b>Email Spell Checker</b> is the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production by companies to validate thousands of mispelled emails daily.
+      <b>Email Spell Checker</b> is the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production daily by top companies to validate thousands of mispelled emails.
     </p>
   </a>
 </p>
@@ -24,8 +24,6 @@
 [![npm package][bundlephobia-img]][bundlephobia-url]
 [![Issues][issues-img]][issues-url]
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
-[![Downloads][downloads-img]][downloads-url]
-[![Semantic Release][semantic-release-img]][semantic-release-url]
 
 <b>Email Spell Checker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address.
 
@@ -51,8 +49,15 @@ We rewrote and improved [mailcheck.js](https://github.com/mailcheck/mailcheck), 
 
 ## Getting Started in 5 minutes
 
-- [⚛️ React example: Validating email spell in React](./docs/React.md)
-- [✅ Node example: Validating email spell in Node](./docs/Node.md)
+Adding Email Spell Checker to your project takes you less than 5 minutes.
+
+It works on any JavaScript framework (Vue, React, Next.JS, Angular, Svelte, etc) as well as the your backend server.
+
+Here some highly-requested tutorials. If you want to write a tutorial [send a PR](https://github.com/zootools/email-spell-checker/pulls) or [create an issue](https://github.com/zootools/email-spell-checker/issues) if you want to ask for one:
+
+- JavaScript (Continue reading this README.md)
+- [⚛️ React: Validating email spell in React](./docs/React.md)
+- [✅ Node: Validating email spell in Node](./docs/Node.md)
 
 ### Installation
 
@@ -70,7 +75,11 @@ yarn add @zootools/email-spell-checker
 
 ### Basic Example
 
-**Email Spell Checker** works with any JavaScript framework: Vue, React, Next.JS, Angular, Svelte, etc.
+Using the library is really easy:
+
+* Import it.
+* Call `run` function with the email you want to validate.
+* Get the suggested email, and prompt your user to accept suggestion.
 
 ```js
 import emailSpellChecker from '@zootools/email-spell-checker';
@@ -92,36 +101,51 @@ if (suggestedEmail) {
 }
 ```
 
-### Advanced example (extending defaults)
+Extending Domains
+-------
 
-If you are looking for example codes with React and Node.js, check this links:
+EmailSpellChecker has inbuilt defaults if the `domains`, `secondLevelDomains` or `topLevelDomains` options aren't provided.
 
-- [⚛️ React example: Validating email spell in React](./docs/React.md)
-- [✅ Node example: Validating email spell in Node](./docs/Node.md)
+The out-of-the-box configuration is the best for 99% of cases. If you are that 1%, here is how you can extend the configuration :).
+
+#### Adding your own Domains ####
+
+You can replace EmailSpellChecker's default domain/TLD suggestions by supplying replacements to `EmailSpellChecker.run`:
 
 ```js
-import emailSpellChecker from '@zootools/email-spell-checker';
-
-// Extend any of these properties with your custom lists
-// Note: Default configuration is really solid.
-// It's very rare you really want to do this.
-const suggestedEmail = emailSpellChecker.run({
-  email: 'jorge@gmaik.co',
-  domains: [
-    ...emailSpellChecker.POPULAR_DOMAINS,
-    'customdomain.com'
-  ],
-  topLevelDomains: ['com', 'org', 'xyz'],
+emailSpellChecker.run({
+  domains: [...emailSpellChecker.POPULAR_DOMAINS, 'customdomain.com'], // replaces existing domains
+  secondLevelDomains: ['domain', 'yetanotherdomain'], // replaces existing SLDs
+  topLevelDomains: ['com.au', 'ru'] // replaces existing TLDs
 });
 ```
 
-## How does it work?
+Tests
+-----
 
-TODO: Put screenshot of it in action
+EmailSpellChecker is tested with [Jest](https://jestjs.io/), a popular JavaScript testing framework from Facebook with a focus on simplicity.
 
-## Companies using this library in production
+Run `npm test` from the command line to run the test suite.
 
-We're collecting a list of companies
+Who uses EmailSpellChecker?
+-----------------------
+
+We're putting together a list of happy users of EmailSpellChecker.
+
+Tweet [@ZooToolsHQ](https://twitter.com/ZooToolsHQ) and [@JGFerreiro](https://twitter.com/JGFerreiro) if you are interested to appear.
+
+
+Customer support & updates
+-----------------------
+
+* 🎯 Major updates: [Join our mailing lists to get useful information](https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb) about this and other useful open source libraries: https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb
+* 📆 Updates: Click "Watch repo" on Github and ⭐️ the repo to get useful information.
+* 🤝 Do you have bugs or issues? Email [github@zootools.co](github@zootools.co) and create an [create an issue](https://github.com/zootools/email-spell-checker/issues)
+
+Socials:
+* [@ZooToolsHQ](https://twitter.com/ZooToolsHQ)
+* [@EmailSpellChecker](https://twitter.com/EmailSpellChecker)
+* [@JGFerreiro](https://twitter.com/JGFerreiro)
 
 ## Maintainers
 
@@ -131,13 +155,13 @@ We use this library heavily in <a href="https://panda.zootools.co/">ZooTools Pan
 
 You can view examples of the use of this library <a href="https://panda.zootools.co/examples">here</a>
 
-[downloads-img]: https://img.shields.io/npm/dt/@zootools/email-spell-checker
+[downloads-img]: https://img.shields.io/npm/dt/@zootools/email-spell-checker?labelColor=475873&color=6ead0a
 [downloads-url]: https://www.npmtrends.com/@zootools/email-spell-checker
-[npm-img]: https://img.shields.io/npm/v/@zootools/email-spell-checker
+[npm-img]: https://img.shields.io/npm/v/@zootools/email-spell-checker?labelColor=475873&color=6ead0a
 [npm-url]: https://www.npmjs.com/package/@zootools/email-spell-checker
-[bundlephobia-img]: https://badgen.net/bundlephobia/minzip/@zootools/email-spell-checker
-[bundlephobia-url]: https://badgen.net/bundlephobia/minzip/@zootools/email-spell-checker
-[issues-img]: https://img.shields.io/github/issues/zootools/email-spell-checker
+[bundlephobia-img]: https://badgen.net/bundlephobia/minzip/@zootools/email-spell-checker?labelColor=475873&color=6ead0a
+[bundlephobia-url]: https://bundlephobia.com/package/@zootools/email-spell-checker
+[issues-img]: https://img.shields.io/github/issues/zootools/email-spell-checker?labelColor=475873&color=6ead0a
 [issues-url]: https://github.com/zootools/email-spell-checker/issues
 [codecov-img]: https://codecov.io/gh/zootools/@zootools/email-spell-checker/branch/main/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/zootools/@zootools/email-spell-checker
