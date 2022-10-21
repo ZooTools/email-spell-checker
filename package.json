@@ -47,27 +47,27 @@
   },
   "homepage": "https://github.com/ZooTools/mail-spell-checker#readme",
   "devDependencies": {
-    "@ryansonshine/commitizen": "^4.2.8",
+    "@ryansonshine/commitizen": "4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
     "@semantic-release/git": "^10.0.1",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^12.20.11",
-    "@types/trim": "^0.1.1",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "conventional-changelog-conventionalcommits": "^5.0.0",
-    "eslint": "^7.25.0",
+    "@types/jest": "27.5.2",
+    "@types/node": "12.20.11",
+    "@types/trim": "0.1.1",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
+    "@typescript-eslint/parser": "4.22.0",
+    "conventional-changelog-conventionalcommits": "5.0.0",
+    "eslint": "7.25.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^6.0.0",
-    "jest": "^27.2.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
-    "semantic-release": "^19.0.2",
-    "ts-jest": "^27.0.5",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.2.4"
+    "husky": "6.0.0",
+    "jest": "27.2.0",
+    "lint-staged": "10.5.4",
+    "prettier": "2.2.1",
+    "semantic-release": "19.0.2",
+    "ts-jest": "27.0.5",
+    "ts-node": "10.2.1",
+    "typescript": "4.2.4"
   },
   "config": {
     "commitizen": {
@@ -132,9 +132,6 @@
     ]
   },
   "dependencies": {
-    "assert": "^2.0.0",
-    "js-levenshtein": "^1.1.6",
-    "merge": "^2.1.1",
-    "trim": "^1.0.1"
+    "js-levenshtein": "1.1.6"
   }
 }
