@@ -1,5 +1,5 @@
 import run from '../src/lib/run';
-import distanceFunction from '../src/lib/helpers/sift3Distancetion';
+import distanceFunction from '../src/lib/fuzzy-detection/sift3-distance';
 import encodeEmail from '../src/lib/helpers/encode-email';
 import findClosestDomain from '../src/lib/helpers/find-closest-domain';
 import parseEmail from '../src/lib/helpers/parse-email';
