@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://zootools.co">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/email-spell-checker.png">
-      <img src="assets/email-spell-checker.png" height="128">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/email-spell-checker-white.png?raw=true">
+      <img src="assets/email-spell-checker.png?raw=true" height="128">
     </picture>
     <p align="center">
       🔐 Reduce failed authentication ⬆️ Increase emails delivery ⚡️ Built for speed
@@ -34,26 +34,32 @@ At [ZooTools](https://zootools.co), we validate thousands of emails daily with m
 
 We rewrote and improve [mailcheck.js](https://github.com/mailcheck/mailcheck), a great module that is not longer maintained (7+ years old).
 
-- 🔋 <b>Updated</b>: 38+ supported popular domains out-of-the-box and continuously updated.
+- 🔋 <b>Updated</b>: 39+ popular domains, and 66+ modern TLDs out-of-the-box and continuously updated.
 - 💙 <b>TypeScript</b>: Fully written in TypeScript, cause we know you love it and we too.
 - ⚡️ <b>Lighting fast</b>: Highly performance email checking using `js-levenshtein`, one of the fastest string distance JS modules.
 - ⚙️ <b>Extensible</b>: Allows to pass your custom rules and domains. Tweak it as you need.
 - 🔨 <b>5 minutes migration</b>: Same API and functions as mailcheck to migrate in <5 minutes.
 
+## Some good use cases
+
+- User authentication (login, signup, email recovery).
+- Backend email validation.
+- Newsletter subscriptions.
+
 ## Getting started
 
-### Install
+### Installation
 
 _Install with npm:_
 
 ```bash
-    npm i @zootools/email-spell-checker --save
+npm i @zootools/email-spell-checker --save
 ```
 
 _Install with yarn:_
 
 ```bash
-    yarn add @zootools/email-spell-checker
+yarn add @zootools/email-spell-checker
 ```
 
 ### Usage
@@ -75,11 +81,35 @@ if (suggestedEmail) {
 }
 ```
 
-## Some good use cases
+### Usage with custom configuration (advanced)
 
-- User authentication (login, signup, email recovery).
-- Backend email validation.
-- Newsletter subscriptions.
+The out-of-the box configuration is the best for every mainstream project. However, we know sometimes you want to pass extra configuration.
+
+Bare in mind that the more domains, TLDs options you add, the slower the validation will take. That's why we recommend to avoid passing your custom configuration.
+
+You can easily extend _EmailSpellChecker_ as you need:
+
+```js
+import emailSpellChecker from '@zootools/email-spell-checker';
+
+const suggestedEmail = emailSpellChecker.run({
+  email: 'jorge@gmaik.co',
+  domains: DOMAINS,
+  topLevelDomains: [
+    ...emailSpellChecker.POPULAR_DOMAINS,
+    'supercooldomain.com',
+  ],
+});
+
+if (suggestedEmail) {
+  // Found bad spelled email...
+  // ...Tell your user to fix the email
+
+  console.log('address', suggestedEmail.address); // jorge
+  console.log('domain', suggestedEmail.domain); // gmail.com
+  console.log('full', suggestedEmail.full); // jorge@gmail.com
+}
+```
 
 ## How does it work?
 

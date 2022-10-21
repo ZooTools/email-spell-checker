@@ -1,4 +1,4 @@
-import { run } from '../src';
+import run from '../src/lib/check-mail';
 import distanceFunction from '../src/lib/helpers/distance-function';
 import encodeEmail from '../src/lib/helpers/encode-email';
 import findClosestDomain from '../src/lib/helpers/find-closest-domain';
@@ -59,6 +59,17 @@ describe('mailSpellChecker', () => {
     it("calls the 'empty' callback with the element when there's no suggestion", function () {
       run({
         email: 'contact@kicksend.com',
+        suggested: suggestedSpy,
+        empty: emptySpy,
+      });
+
+      expect(suggestedSpy).not.toHaveBeenCalled();
+      expect(emptySpy).toHaveBeenCalled();
+    });
+
+    it("calls the 'empty' callback with the element when email is empty", function () {
+      run({
+        email: '',
         suggested: suggestedSpy,
         empty: emptySpy,
       });

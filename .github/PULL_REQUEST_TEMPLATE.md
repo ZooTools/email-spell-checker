@@ -5,6 +5,15 @@
   and (hopefully) merge of your change.
 -->
 
+### Important disclaimer
+
+⚠️ We want to keep this package light and sweet, if you want to propose adding a new TLDs or Domain, make sure to justify why it's important:
+
+1. How popular is the TLDs or Domain?
+2. Why most of the companies using this package will get benefit of it?
+
+If you are going to propose add a french version for "gov", this is more likely an edge case and we'll be discarded. You can always pass your custom list of domains as we explain in the README.
+
 ### Description of change
 
 <!--
