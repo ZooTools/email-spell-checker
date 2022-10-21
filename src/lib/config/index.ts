@@ -1,6 +1,6 @@
 // Default configuration options
 
-import sift3Distance from '../helpers/sift3Distance';
+import sift3Distance from '../fuzzy-detection/sift3-distance';
 
 /***
  * Default list of popular emails for 2022 and onwards.

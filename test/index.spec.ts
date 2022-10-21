@@ -1,5 +1,5 @@
-import run from '../src/lib/check-mail';
-import distanceFunction from '../src/lib/helpers/distance-function';
+import run from '../src/lib/run';
+import distanceFunction from '../src/lib/fuzzy-detection/sift3-distance';
 import encodeEmail from '../src/lib/helpers/encode-email';
 import findClosestDomain from '../src/lib/helpers/find-closest-domain';
 import parseEmail from '../src/lib/helpers/parse-email';
@@ -11,6 +11,7 @@ const domains = [
   'comcast.net',
   'facebook.com',
   'msn.com',
+  'zoho.com',
 ];
 const secondLevelDomains = [
   'yahoo',
@@ -102,6 +103,41 @@ describe('mailSpellChecker', () => {
         address: 'test',
         domain: 'emaildomain.com',
         full: 'test@emaildomain.com',
+      });
+    });
+
+    it.only('validates common emails', function () {
+      expect(
+        run({
+          email: 'test@gmal.com',
+          domains: domains,
+        })
+      ).toEqual({
+        address: 'test',
+        domain: 'gmail.com',
+        full: 'test@gmail.com',
+      });
+
+      expect(
+        run({
+          email: 'test@yaho.com',
+          domains: domains,
+        })
+      ).toEqual({
+        address: 'test',
+        domain: 'yahoo.com',
+        full: 'test@yahoo.com',
+      });
+
+      expect(
+        run({
+          email: 'test@zopo.com',
+          domains: domains,
+        })
+      ).toEqual({
+        address: 'test',
+        domain: 'zoho.com',
+        full: 'test@zoho.com',
       });
     });
   });
@@ -231,6 +267,7 @@ describe('mailSpellChecker', () => {
       it('returns the most similar second-level domain', function () {
         expect(findClosest('hotmial', secondLevelDomains)).toEqual('hotmail');
         expect(findClosest('tahoo', secondLevelDomains)).toEqual('yahoo');
+        expect(findClosest('yaho', secondLevelDomains)).toEqual('yahoo');
         expect(findClosest('livr', secondLevelDomains)).toEqual('live');
         expect(findClosest('outllok', secondLevelDomains)).toEqual('outlook');
       });
