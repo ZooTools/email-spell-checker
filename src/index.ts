@@ -1,5 +1,5 @@
-import run from './lib/run';
-import { POPULAR_DOMAINS } from './lib/config';
+import run from './lib2/run';
+import { POPULAR_DOMAINS } from './lib2/config';
 
 const MailSpellChecker = {
   run,

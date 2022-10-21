@@ -1,8 +1,8 @@
-import run from '../src/lib/run';
-import distanceFunction from '../src/lib/helpers/distance-function';
-import encodeEmail from '../src/lib/helpers/encode-email';
-import findClosestDomain from '../src/lib/helpers/find-closest-domain';
-import parseEmail from '../src/lib/helpers/parse-email';
+import run from '../src/lib2/run';
+import distanceFunction from '../src/lib2/helpers/sift3Distancetion';
+import encodeEmail from '../src/lib2/helpers/encode-email';
+import findClosestDomain from '../src/lib2/helpers/find-closest-domain';
+import parseEmail from '../src/lib2/helpers/parse-email';
 
 const domains = [
   'google.com',
