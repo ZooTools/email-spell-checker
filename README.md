@@ -158,6 +158,8 @@ We use this library heavily in <a href="https://panda.zootools.co/">ZooTools Pan
 
 You can view examples of the use of this library <a href="https://panda.zootools.co/examples">here</a>
 
+## We're hiring!
+
 Badass developer looking for a job? [Join the grind](https://www.notion.so/zootools/Careers-at-ZooTools-2e2815794b14415daca297506c54cb69)!
 
 <p>
