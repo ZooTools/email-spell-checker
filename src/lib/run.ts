@@ -1,4 +1,4 @@
-import assertValidUserOptions from './helpers/asser-valid-user-options';
+import assertValidUserOptions from './helpers/assert-valid-user-options';
 import suggestEmail from './suggest-email';
 import getOptions from './helpers/get-options';
 import { MailSuggestion, Options, UserOptions } from './types';
