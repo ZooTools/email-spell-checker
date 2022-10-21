@@ -9,7 +9,7 @@
     </p>
     <h1 align="center">The best way to check a misspelled email address in JavaScript</h1>
     <p align="center">
-      <b>Email Spell Checker</b> is the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production daily by top companies to validate thousands of mispelled emails.
+      <b>EmailSpellChecker</b> is the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production daily by top companies to validate thousands of mispelled emails.
     </p>
   </a>
 </p>
@@ -25,7 +25,7 @@
 [![Issues][issues-img]][issues-url]
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
 
-<b>Email Spell Checker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address.
+<b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address.
 
 At [ZooTools - web3 mailchimp alternative](https://zootools.co), we validate thousands of emails daily with _email-spell-checker_ and it helped us to reducing bounced emails by 30%.
 
@@ -49,7 +49,7 @@ We rewrote and improved [mailcheck.js](https://github.com/mailcheck/mailcheck), 
 
 ## Getting Started in 5 minutes
 
-Adding Email Spell Checker to your project takes you less than 5 minutes.
+Adding <b>EmailSpellChecker</b> to your project takes you less than 5 minutes.
 
 It works on any JavaScript framework (Vue, React, Next.JS, Angular, Svelte, etc) as well as the your backend server.
 
@@ -104,7 +104,7 @@ if (suggestedEmail) {
 Extending Domains
 -------
 
-EmailSpellChecker has inbuilt defaults if the `domains`, `secondLevelDomains` or `topLevelDomains` options aren't provided.
+<b>EmailSpellChecker</b> has inbuilt defaults if the `domains`, `secondLevelDomains` or `topLevelDomains` options aren't provided.
 
 The out-of-the-box configuration is the best for 99% of cases. If you are that 1%, here is how you can extend the configuration :).
 
@@ -138,11 +138,14 @@ Tweet [@ZooToolsHQ](https://twitter.com/ZooToolsHQ) and [@JGFerreiro](https://tw
 Customer support & updates
 -----------------------
 
-* 🎯 Major updates: [Join our mailing lists to get useful information](https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb) about this and other useful open source libraries: https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb
-* 📆 Updates: Click "Watch repo" on Github and ⭐️ the repo to get useful information.
-* 🤝 Do you have bugs or issues? Email [github@zootools.co](github@zootools.co) and create an [create an issue](https://github.com/zootools/email-spell-checker/issues)
+Updates
+* 🎯 [Join our mailing lists to get useful information](https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb) about this and other useful open source libraries: https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb
+* 📆 Click "Watch repo" on Github and ⭐️ the repo to get useful information.
 
-Socials:
+Customer support
+* 🤝 Do you have bugs or issues? Email [github@zootools.co](github@zootools.co) and [create an issue](https://github.com/zootools/email-spell-checker/issues)
+
+Socials
 * [@ZooToolsHQ](https://twitter.com/ZooToolsHQ)
 * [@EmailSpellChecker](https://twitter.com/EmailSpellChecker)
 * [@JGFerreiro](https://twitter.com/JGFerreiro)
@@ -154,6 +157,18 @@ This library is used and maintained by <a href="https://panda.zootools.co/">ZooT
 We use this library heavily in <a href="https://panda.zootools.co/">ZooTools Panda, a mailchimp alternative for sending viral marketing campaigns</a>.
 
 You can view examples of the use of this library <a href="https://panda.zootools.co/examples">here</a>
+
+Badass developer looking for a job? [Join the grind](https://www.notion.so/zootools/Careers-at-ZooTools-2e2815794b14415daca297506c54cb69)!
+
+<p>
+  <a href="https://zootools.co">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/made_with_love.png?raw=true">
+      <img src="https://open-source.zootools.co/made_with_love.png?raw=true" height="80">
+    </picture>
+  </a>
+</p>
+
 
 [downloads-img]: https://img.shields.io/npm/dt/@zootools/email-spell-checker?labelColor=475873&color=6ead0a
 [downloads-url]: https://www.npmtrends.com/@zootools/email-spell-checker
