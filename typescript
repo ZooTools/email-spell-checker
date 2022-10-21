@@ -5836,4 +5836,935 @@ Untracked files:
 	[31mtypescript[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hggit checkout -b ferrei
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hggit checkout -b ferreiro-fix-algo[?2004l
+Switched to a new branch 'ferreiro-fix-algo'
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hggit add -A[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hggit status[?2004l
+On branch ferreiro-fix-algo
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   src/index.ts[m
+	[32mmodified:   test/index.spec.ts[m
+	[32mnew file:   typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hggit d commit -m"[?2004l
+[0m[27m[24m[Jdquote> [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hggit commit[?2004l
+[?25l[2m◼[22m Preparing...
+[?25l[?25l[2K[1A[2K[G[2m◼[22m Preparing...
+[2m◼[22m Running tasks...
+[?25l[2K[1A[2K[1A[2K[G[2m◼[22m Preparing...
+[2m◼[22m Running tasks...
+[2m◼[22m Applying modifications...
+[?25l[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[G[2m◼[22m Preparing...
+[2m◼[22m Running tasks...
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[93m⠋[39m Preparing...
+[2m◼[22m Running tasks...
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[2m◼[22m Running tasks...
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[93m⠋[39m Running tasks...
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [2m◼[22m Running tasks for *.ts
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [93m⠋[39m Running tasks for *.ts
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [2m◼[22m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠋[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠙[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠹[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠸[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠼[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠴[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠦[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠧[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠇[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠏[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠋[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠙[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠹[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠸[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠼[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [93m⠴[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [33m❯[39m Running tasks for *.ts
+    [32m✔[39m eslint --cache --cache-location .eslintcache --fix
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[33m❯[39m Running tasks...
+  [32m✔[39m Running tasks for *.ts
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[32m✔[39m Running tasks...
+[2m◼[22m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[?25l[?25l[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[32m✔[39m Running tasks...
+[93m⠴[39m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[32m✔[39m Running tasks...
+[32m✔[39m Applying modifications...
+[2m◼[22m Cleaning up...
+[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[32m✔[39m Running tasks...
+[32m✔[39m Applying modifications...
+[93m⠴[39m Cleaning up...
+[?25l[?25l[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m Preparing...
+[32m✔[39m Running tasks...
+[32m✔[39m Applying modifications...
+[32m✔[39m Cleaning up...
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[?25h[32m✔[39m Preparing...
+[32m✔[39m Running tasks...
+[32m✔[39m Applying modifications...
+[32m✔[39m Cleaning up...
+[?25hcz-cli@4.2.8, @ryansonshine/cz-conventional-changelog@3.3.4
+
+[?25l[32m?[39m [1mSelect the type of change that you're committing:[22m[0m [0m[2m(Use arrow keys)[22m
+[36m❯ feat:     A new feature[39m 
+  fix:      A bug fix 
+  docs:     Documentation only changes 
+  style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) 
+  refactor: A code change that neither fixes a bug nor adds a feature 
+  perf:     A code change that improves performance 
+  test:     Adding missing tests or correcting existing tests 
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mSelect the type of change that you're committing:[22m[0m [0m
+  feat:     A new feature 
+[36m❯ fix:      A bug fix[39m 
+  docs:     Documentation only changes 
+  style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) 
+  refactor: A code change that neither fixes a bug nor adds a feature 
+  perf:     A code change that improves performance 
+  test:     Adding missing tests or correcting existing tests 
+[2m(Move up and down to reveal more choices)[22m[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m?[39m [1mSelect the type of change that you're committing:[22m[0m [0m[36mfix:      A bug fix[39m[71D[71C
+[?25h[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0m[88D[88C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mc[89D[89C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mco[90D[90C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mcom[91D[91C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mcomp[92D[92C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mcompo[93D[93C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mcompon[94D[94C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mcompone[95D[95C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mcomponen[96D[96C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0mcomponent[97D[97C[2K[G[32m?[39m [1mWhat is the scope of this change (e.g. component or file name): (press enter to skip)[22m[0m [0m[36mcomponent[39m[97D[97C
+[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(0) [39m[5D[5C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(1) f[39m[6D[6C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(2) fi[39m[7D[7C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) fix[39m[8D[8C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) fix [39m[9D[9C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(5) fix a[39m[10D[10C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(6) fix al[39m[11D[11C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) fix alo[39m[12D[12C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(6) fix al[39m[11D[11C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(5) fix a[39m[10D[10C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) fix [39m[9D[9C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) fix[39m[8D[8C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(2) fi[39m[7D[7C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(1) f[39m[6D[6C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(0) [39m[5D[5C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(1) r[39m[6D[6C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(2) ro[39m[7D[7C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) rol[39m[8D[8C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(4) roll[39m[9D[9C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(5) rolli[39m[10D[10C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(6) rollin[39m[11D[11C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) rollinb[39m[12D[12C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) rollinb [39m[13D[13C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(9) rollinb c[39m[14D[14C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) rollinb [39m[13D[13C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) rollinb[39m[12D[12C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(6) rollin[39m[11D[11C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(5) rolli[39m[10D[10C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(4) roll[39m[9D[9C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(4) roll [39m[10D[10C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(6) roll b[39m[11D[11C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) roll ba[39m[12D[12C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(8) roll bac[39m[13D[13C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) roll ba[39m[12D[12C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(6) roll b[39m[11D[11C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(4) roll [39m[10D[10C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(4) roll[39m[9D[9C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) rol[39m[8D[8C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(2) ro[39m[7D[7C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(1) r[39m[6D[6C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(0) [39m[5D[5C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(1) u[39m[6D[6C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(2) us[39m[7D[7C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) use[39m[8D[8C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(3) use [39m[9D[9C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(5) use s[39m[10D[10C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(6) use sh[39m[11D[11C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(7) use shi[39m[12D[12C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(8) use shif[39m[13D[13C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(9) use shift[39m[14D[14C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(10) use shift3[39m[16D[16C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(10) use shift3 [39m[17D[17C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(12) use shift3 s[39m[18D[18C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(13) use shift3 si[39m[19D[19C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(14) use shift3 sin[39m[20D[20C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(15) use shift3 sinc[39m[21D[21C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(16) use shift3 since[39m[22D[22C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(16) use shift3 since [39m[23D[23C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(18) use shift3 since 4[39m[24D[24C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(18) use shift3 since 4 [39m[25D[25C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(20) use shift3 since 4 a[39m[26D[26C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(21) use shift3 since 4 an[39m[27D[27C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(22) use shift3 since 4 and[39m[28D[28C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(22) use shift3 since 4 and [39m[29D[29C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(24) use shift3 since 4 and l[39m[30D[30C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(25) use shift3 since 4 and le[39m[31D[31C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(24) use shift3 since 4 and l[39m[30D[30C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(22) use shift3 since 4 and [39m[29D[29C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(24) use shift3 since 4 and j[39m[30D[30C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(25) use shift3 since 4 and js[39m[31D[31C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(26) use shift3 since 4 and js-[39m[32D[32C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(27) use shift3 since 4 and js-l[39m[33D[33C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(28) use shift3 since 4 and js-le[39m[34D[34C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(29) use shift3 since 4 and js-lev[39m[35D[35C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(30) use shift3 since 4 and js-leve[39m[36D[36C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(31) use shift3 since 4 and js-leven[39m[37D[37C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(32) use shift3 since 4 and js-levens[39m[38D[38C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(33) use shift3 since 4 and js-levensh[39m[39D[39C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(34) use shift3 since 4 and js-levensht[39m[40D[40C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(35) use shift3 since 4 and js-levenshte[39m[41D[41C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(36) use shift3 since 4 and js-levenshtei[39m[42D[42C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(37) use shift3 since 4 and js-levenshtein[39m[43D[43C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(37) use shift3 since 4 and js-levenshtein [39m[44D[44C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(39) use shift3 since 4 and js-levenshtein a[39m[45D[45C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(40) use shift3 since 4 and js-levenshtein ar[39m[46D[46C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(41) use shift3 since 4 and js-levenshtein are[39m[47D[47C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(41) use shift3 since 4 and js-levenshtein are [39m[48D[48C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(43) use shift3 since 4 and js-levenshtein are n[39m[49D[49C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(44) use shift3 since 4 and js-levenshtein are no[39m[50D[50C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(45) use shift3 since 4 and js-levenshtein are not[39m[51D[51C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(45) use shift3 since 4 and js-levenshtein are not [39m[52D[52C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(47) use shift3 since 4 and js-levenshtein are not 1[39m[53D[53C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(48) use shift3 since 4 and js-levenshtein are not 10[39m[54D[54C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(49) use shift3 since 4 and js-levenshtein are not 100[39m[55D[55C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(50) use shift3 since 4 and js-levenshtein are not 100%[39m[56D[56C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(49) use shift3 since 4 and js-levenshtein are not 100[39m[55D[55C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(48) use shift3 since 4 and js-levenshtein are not 10[39m[54D[54C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(47) use shift3 since 4 and js-levenshtein are not 1[39m[53D[53C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(45) use shift3 since 4 and js-levenshtein are not [39m[52D[52C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(47) use shift3 since 4 and js-levenshtein are not e[39m[53D[53C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(48) use shift3 since 4 and js-levenshtein are not ef[39m[54D[54C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(49) use shift3 since 4 and js-levenshtein are not eff[39m[55D[55C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(50) use shift3 since 4 and js-levenshtein are not effi[39m[56D[56C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(49) use shift3 since 4 and js-levenshtein are not eff[39m[55D[55C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(48) use shift3 since 4 and js-levenshtein are not ef[39m[54D[54C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(47) use shift3 since 4 and js-levenshtein are not e[39m[53D[53C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(45) use shift3 since 4 and js-levenshtein are not [39m[52D[52C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(47) use shift3 since 4 and js-levenshtein are not a[39m[53D[53C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(48) use shift3 since 4 and js-levenshtein are not ac[39m[54D[54C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(49) use shift3 since 4 and js-levenshtein are not acc[39m[55D[55C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(50) use shift3 since 4 and js-levenshtein are not accu[39m[56D[56C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(51) use shift3 since 4 and js-levenshtein are not accur[39m[57D[57C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(52) use shift3 since 4 and js-levenshtein are not accura[39m[58D[58C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(53) use shift3 since 4 and js-levenshtein are not accurat[39m[59D[59C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(54) use shift3 since 4 and js-levenshtein are not accurate[39m[60D[60C[2K[1A[2K[G[32m?[39m [1mWrite a short, imperative tense description of the change (max 84 chars):[22m
+[1m[22m[0m [0m[32m(54) use shift3 since 4 and js-levenshtein are not accurate[39m[60D[60C
+[32m?[39m [1mProvide a longer description of the change: (press enter to skip)[22m
+[1m[22m[0m [0m[1D[1C[2K[1A[2K[G[32m?[39m [1mProvide a longer description of the change: (press enter to skip)[22m
+[1m[22m[0m [0m[1D[1C
+[32m?[39m [1mAre there any breaking changes?[22m[0m [0m[2m(y/N) [22m[40D[40C[2K[G[32m?[39m [1mAre there any breaking changes?[22m[0m [0m[2m(y/N) [22mN[41D[41C[2K[G[32m?[39m [1mAre there any breaking changes?[22m[0m [0m[36mNo[39m[36D[36C
+[32m?[39m [1mDoes this change affect any open issues?[22m[0m [0m[2m(y/N) [22m[49D[49C[2K[G[32m?[39m [1mDoes this change affect any open issues?[22m[0m [0m[2m(y/N) [22mN[50D[50C[2K[G[32m?[39m [1mDoes this change affect any open issues?[22m[0m [0m[36mNo[39m[45D[45C
+[?25hhint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;23r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[23;1H"~/Documents/GitHub/mail-spell-checker/.git/COMMIT_EDITMSG" [noeol] 1L, 70B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hfix(component): use shift3 since 4 and js-levenshtein are not accurate
+[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [1;1H[?25h[?12$p[?25l[m[23;1H[K[23;1H:[?25hwq[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 1L, 71B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[K[ferreiro-fix-algo 89072be] fix(component): use shift3 since 4 and js-levenshtein are not accurate
+ 3 files changed, 5879 insertions(+), 3 deletions(-)
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hggit push[?2004l
+Enumerating objects: 18, done.
+Counting objects:   5% (1/18)Counting objects:  11% (2/18)Counting objects:  16% (3/18)Counting objects:  22% (4/18)Counting objects:  27% (5/18)Counting objects:  33% (6/18)Counting objects:  38% (7/18)Counting objects:  44% (8/18)Counting objects:  50% (9/18)Counting objects:  55% (10/18)Counting objects:  61% (11/18)Counting objects:  66% (12/18)Counting objects:  72% (13/18)Counting objects:  77% (14/18)Counting objects:  83% (15/18)Counting objects:  88% (16/18)Counting objects:  94% (17/18)Counting objects: 100% (18/18)Counting objects: 100% (18/18), done.
+Delta compression using up to 10 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 14.11 KiB | 3.53 MiB/s, done.
+Total 11 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 5 local objects.[K
+remote: 
+remote: Create a pull request for 'ferreiro-fix-algo' on GitHub by visiting:[K
+remote:      https://github.com/ZooTools/email-spell-checker/pull/new/ferreiro-fix-algo[K
+remote: 
+To github.com:ZooTools/email-spell-checker.git
+ * [new branch]      ferreiro-fix-algo -> ferreiro-fix-algo
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hgit pushcommit -m"[10Dstatus    [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004h[H[2J[0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K
+bck-i-search: _[K[A[28Cgi[4mt[24m push[1B[37Dt_[A[29Cnp[24mm run [4mte[24mst[1B[40De_[A[34C[1C[4me[4ms[24m[1B[38Ds_[A[33C[2C[4ms[4mt[24m[1B[38Dt_[A[32C[24mt[24me[24ms[24mt[1B[K[A[51C[?2004l[1B
+> @zootools/email-spell-checker@1.2.0 test
+> jest --coverage
+
+[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1ABrowserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m ]8;;file:///Users/jorgeferreiro/Documents/GitHub/mail-spell-checker/test/index.spec.ts[2mtest/[22m[1mindex.spec.ts[22m]8;;
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A  mailSpellChecker
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A    run
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [32m✓[39m [2mvalidates common emails (34 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped calls the 'suggested' callback with the element and result when there's a suggestion[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped calls the 'empty' callback with the element when there's no suggestion[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped calls the 'empty' callback with the element when email is empty[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped returns the result when 'suggested' callback is not defined[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped takes in an array of specified domains[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A    parseEmail
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped returns a hash of the address, the domain, and the top-level domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped splits RFC compliant emails[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped returns false for email addresses that are not RFC compliant[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped trims spaces from the start and end of the string[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      findClosestDomain
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A        [33m○[39m [2mskipped returns the most similar domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A        [33m○[39m [2mskipped returns the most similar second-level domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A        [33m○[39m [2mskipped returns the most similar top-level domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A    encodeEmail
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped escapes the element's value[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped allows valid special characters[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A[999D[K  [2mconsole.log[22m
+    domains [
+      'google.com',
+      'gmail.com',
+      'emaildomain.com',
+      'comcast.net',
+      'facebook.com',
+      'msn.com',
+      'zoho.com'
+    ]
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:33:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    email.domain gmal.com
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:34:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domaingmal.com domains[i]google.com dist5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domaingmal.com domains[i]gmail.com dist1.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domaingmal.com domains[i]emaildomain.com dist7.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domaingmal.com domains[i]comcast.net dist9.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domaingmal.com domains[i]facebook.com dist7
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domaingmal.com domains[i]msn.com dist4.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domaingmal.com domains[i]zoho.com dist5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    threshold 2
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:37:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    closestDomain gmail.com
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:41:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domains [
+      'google.com',
+      'gmail.com',
+      'emaildomain.com',
+      'comcast.net',
+      'facebook.com',
+      'msn.com',
+      'zoho.com'
+    ]
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:33:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    email.domain yaho.com
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:34:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho.com domains[i]google.com dist6
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho.com domains[i]gmail.com dist5.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho.com domains[i]emaildomain.com dist9.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho.com domains[i]comcast.net dist9.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho.com domains[i]facebook.com dist6
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho.com domains[i]msn.com dist4.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho.com domains[i]zoho.com dist3
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    threshold 2
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:37:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    closestDomain undefined
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:41:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho domains[i]yahoo dist0.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho domains[i]hotmail dist4.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho domains[i]mail dist3
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho domains[i]live dist4
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho domains[i]outlook dist5.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainyaho domains[i]gmx dist3.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    threshold 2
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:37:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domains [
+      'google.com',
+      'gmail.com',
+      'emaildomain.com',
+      'comcast.net',
+      'facebook.com',
+      'msn.com',
+      'zoho.com'
+    ]
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:33:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    email.domain zopo.com
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:34:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainzopo.com domains[i]google.com dist5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainzopo.com domains[i]gmail.com dist5.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainzopo.com domains[i]emaildomain.com dist9.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainzopo.com domains[i]comcast.net dist8.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainzopo.com domains[i]facebook.com dist7
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainzopo.com domains[i]msn.com dist4.5
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    la distancia
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:27:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    domainzopo.com domains[i]zoho.com dist1
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:28:13)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    threshold 2
+[2m[22m
+[2m      [2mat Object.findClosestDomain [as default] ([22m[2msrc/lib/helpers/find-closest-domain.ts[2m:37:11)[22m[2m[22m
+
+[999D[K  [2mconsole.log[22m
+    closestDomain zoho.com
+[2m[22m
+[2m      [2mat Object.suggestEmail [as default] ([22m[2msrc/lib/suggest-email.ts[2m:41:11)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A[999D[K[1m[2mRunning coverage on untested files...[22m[22m[999D[K------------------------------|---------|----------|---------|---------|--------------------
+File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
+------------------------------|---------|----------|---------|---------|--------------------
+[32;1mAll files                    [0m | [32;1m  84.93[0m | [33;1m   71.58[0m | [32;1m    100[0m | [32;1m  84.29[0m | [31;1m                  [0m 
+[31;1m src                         [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                  [0m 
+[31;1m  index.ts                   [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1-9               [0m 
+[32;1m src/lib                     [0m | [32;1m  82.61[0m | [33;1m   62.16[0m | [32;1m    100[0m | [32;1m  82.61[0m | [31;1m                  [0m 
+[32;1m  run.ts                     [0m | [32;1m  83.33[0m | [33;1m      60[0m | [32;1m    100[0m | [32;1m  83.33[0m | [31;1m12,15             [0m 
+[32;1m  suggest-email.ts           [0m | [32;1m  82.35[0m | [33;1m   62.96[0m | [32;1m    100[0m | [32;1m  82.35[0m | [31;1m11,29,46,92-96,112[0m 
+[32;1m src/lib/config              [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[32;1m  index.ts                   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[32;1m src/lib/helpers             [0m | [32;1m  88.76[0m | [33;1m   77.59[0m | [32;1m    100[0m | [32;1m  88.24[0m | [31;1m                  [0m 
+[32;1m  asser-valid-user-options.ts[0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[33;1m  assert.ts                  [0m | [33;1m  66.67[0m | [33;1m      50[0m | [32;1m    100[0m | [33;1m  66.67[0m | [31;1m3                 [0m 
+[32;1m  distance-function.ts       [0m | [32;1m  85.19[0m | [33;1m      75[0m | [32;1m    100[0m | [32;1m  84.62[0m | [31;1m4-7,12            [0m 
+[32;1m  encode-email.ts            [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[32;1m  find-closest-domain.ts     [0m | [32;1m     95[0m | [32;1m   91.67[0m | [32;1m    100[0m | [32;1m  94.74[0m | [31;1m19                [0m 
+[32;1m  get-options.ts             [0m | [32;1m    100[0m | [32;1m   91.67[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m7                 [0m 
+[32;1m  parse-email.ts             [0m | [32;1m     84[0m | [33;1m      50[0m | [32;1m    100[0m | [32;1m  82.61[0m | [31;1m11,16,30,33       [0m 
+[32;1m  trim.ts                    [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+------------------------------|---------|----------|---------|---------|--------------------
+[1mTest Suites: [22m[1m[32m1 passed[39m[22m, 1 total
+[1mTests:       [22m[1m[33m14 skipped[39m[22m, [1m[32m1 passed[39m[22m, 15 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0.862 s, estimated 1 s
+[2mRan all test suites[22m[2m.[22m
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004hq[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004h[H[2J[0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [Kggt [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [K[?2004h[H[2J[0m[27m[24m[Jjorgeferreiro@c106-53 mail-spell-checker % [Knpm run test[12Dgit push    [8Dnpm run test[?2004l
+
+> @zootools/email-spell-checker@1.2.0 test
+> jest --coverage
+
+[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1ABrowserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m ]8;;file:///Users/jorgeferreiro/Documents/GitHub/mail-spell-checker/test/index.spec.ts[2mtest/[22m[1mindex.spec.ts[22m]8;;
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A  mailSpellChecker
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A    run
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [32m✓[39m [2mvalidates common emails (2 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped calls the 'suggested' callback with the element and result when there's a suggestion[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped calls the 'empty' callback with the element when there's no suggestion[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped calls the 'empty' callback with the element when email is empty[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped returns the result when 'suggested' callback is not defined[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped takes in an array of specified domains[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A    parseEmail
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped returns a hash of the address, the domain, and the top-level domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped splits RFC compliant emails[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped returns false for email addresses that are not RFC compliant[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped trims spaces from the start and end of the string[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      findClosestDomain
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A        [33m○[39m [2mskipped returns the most similar domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A        [33m○[39m [2mskipped returns the most similar second-level domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A        [33m○[39m [2mskipped returns the most similar top-level domain[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A    encodeEmail
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped escapes the element's value[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A      [33m○[39m [2mskipped allows valid special characters[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mtest/[22m[1mindex.spec.ts[22m
+[K[1A[K[1A[999D[K[1m[2mRunning coverage on untested files...[22m[22m[999D[K------------------------------|---------|----------|---------|---------|--------------------
+File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
+------------------------------|---------|----------|---------|---------|--------------------
+[32;1mAll files                    [0m | [32;1m  84.29[0m | [33;1m   71.58[0m | [32;1m    100[0m | [32;1m  83.58[0m | [31;1m                  [0m 
+[31;1m src                         [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m                  [0m 
+[31;1m  index.ts                   [0m | [31;1m      0[0m | [32;1m     100[0m | [32;1m    100[0m | [31;1m      0[0m | [31;1m1-9               [0m 
+[32;1m src/lib                     [0m | [32;1m   81.4[0m | [33;1m   62.16[0m | [32;1m    100[0m | [32;1m   81.4[0m | [31;1m                  [0m 
+[32;1m  run.ts                     [0m | [32;1m  83.33[0m | [33;1m      60[0m | [32;1m    100[0m | [32;1m  83.33[0m | [31;1m12,15             [0m 
+[32;1m  suggest-email.ts           [0m | [32;1m  80.65[0m | [33;1m   62.96[0m | [32;1m    100[0m | [32;1m  80.65[0m | [31;1m11,29,43,89-93,109[0m 
+[32;1m src/lib/config              [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[32;1m  index.ts                   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[32;1m src/lib/helpers             [0m | [32;1m  88.37[0m | [33;1m   77.59[0m | [32;1m    100[0m | [32;1m   87.8[0m | [31;1m                  [0m 
+[32;1m  asser-valid-user-options.ts[0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[33;1m  assert.ts                  [0m | [33;1m  66.67[0m | [33;1m      50[0m | [32;1m    100[0m | [33;1m  66.67[0m | [31;1m3                 [0m 
+[32;1m  distance-function.ts       [0m | [32;1m  85.19[0m | [33;1m      75[0m | [32;1m    100[0m | [32;1m  84.62[0m | [31;1m4-7,12            [0m 
+[32;1m  encode-email.ts            [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+[32;1m  find-closest-domain.ts     [0m | [32;1m  94.12[0m | [32;1m   91.67[0m | [32;1m    100[0m | [32;1m  93.75[0m | [31;1m19                [0m 
+[32;1m  get-options.ts             [0m | [32;1m    100[0m | [32;1m   91.67[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m7                 [0m 
+[32;1m  parse-email.ts             [0m | [32;1m     84[0m | [33;1m      50[0m | [32;1m    100[0m | [32;1m  82.61[0m | [31;1m11,16,30,33       [0m 
+[32;1m  trim.ts                    [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                  [0m 
+------------------------------|---------|----------|---------|---------|--------------------
+[1mTest Suites: [22m[1m[32m1 passed[39m[22m, 1 total
+[1mTests:       [22m[1m[33m14 skipped[39m[22m, [1m[3

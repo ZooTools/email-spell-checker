@@ -107,16 +107,16 @@ describe('mailSpellChecker', () => {
     });
 
     it.only('validates common emails', function () {
-      // expect(
-      //   run({
-      //     email: 'test@gmal.com',
-      //     domains: domains,
-      //   })
-      // ).toEqual({
-      //   address: 'test',
-      //   domain: 'gmail.com',
-      //   full: 'test@gmail.com',
-      // });
+      expect(
+        run({
+          email: 'test@gmal.com',
+          domains: domains,
+        })
+      ).toEqual({
+        address: 'test',
+        domain: 'gmail.com',
+        full: 'test@gmail.com',
+      });
 
       expect(
         run({
