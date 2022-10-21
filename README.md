@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://zootools.co">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/email-spell-checker-dark-mode.png?raw=true">
-      <img src="https://open-source.zootools.co/email-spell-checker/email-spell-checker-light-mode.png?raw=true" height="128">
+      <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true">
+      <img src="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" height="140">
     </picture>
     <p align="center">
       🔐 Reduce failed authentication ⬆️ Increase emails delivery ⚡️ Built for speed
