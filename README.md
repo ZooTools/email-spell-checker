@@ -7,7 +7,7 @@
     <p align="center">
       🔐 Reduce failed authentication ⬆️ Increase emails delivery ⚡️ Built for speed
     </p>
-    <h1 align="center">The easiest way to check a misspelled email address in JavaScript</h1>
+    <h1 align="center">The best way to check a misspelled email address in JavaScript</h1>
     <p align="center">
       <b>Email Spell Checker</b> is the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production by companies to validate thousands of mispelled emails daily.
     </p>
@@ -22,9 +22,9 @@
 
 [![npm package][npm-img]][npm-url]
 [![npm package][bundlephobia-img]][bundlephobia-url]
-[![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
+[![Downloads][downloads-img]][downloads-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
 
 <b>Email Spell Checker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address.
