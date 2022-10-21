@@ -106,7 +106,7 @@ describe('mailSpellChecker', () => {
       });
     });
 
-    it.only('validates common emails', function () {
+    it('validates common emails', function () {
       expect(
         run({
           email: 'test@gmal.com',
