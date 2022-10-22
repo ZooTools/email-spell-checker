@@ -291,5 +291,33 @@ describe('mailSpellChecker', () => {
       const result = encodeEmail(" g1!#$%&'*+-/=?^_`{|}@gmai.com");
       expect(result).toEqual(" g1!#$%&'*+-/=?^_`{|}@gmai.com");
     });
+
+    it('does not encode empty spaces', function () {
+      expect(encodeEmail('   postbox@com   ')).toEqual('   postbox@com   ');
+    });
+
+    it('does not encode percentage', function () {
+      expect(encodeEmail('%%%postbox%@%com%')).toEqual('%%%postbox%@%com%');
+    });
+
+    it('does not encode caret', function () {
+      expect(encodeEmail('^^^postbox^^^@^^^com^^^')).toEqual(
+        '^^^postbox^^^@^^^com^^^'
+      );
+    });
+
+    it('does not encode backtick', function () {
+      expect(encodeEmail('`` hola@jorge.com')).toEqual('`` hola@jorge.com');
+    });
+
+    it('does not encode brackets', function () {
+      expect(encodeEmail('{{hola@jorge.com}}')).toEqual('{{hola@jorge.com}}');
+    });
+
+    it('does not encode pipe', function () {
+      expect(encodeEmail('|||hola|||@jorge.com')).toEqual(
+        '|||hola|||@jorge.com'
+      );
+    });
   });
 });
