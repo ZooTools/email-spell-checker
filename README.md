@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://zootools.co">
+  <a href="https://zootools.co/?ref=github-spell">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true">
       <img src="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" height="140">
@@ -17,7 +17,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://zootools.co">
+  <a href="https://zootools.co?ref=github-spell">
     <kbd>
     <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2_looped.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" style="border-radius: 10px;" />
     </kbd>
@@ -35,7 +35,7 @@
 
 <b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests the right domain when your users misspell it in an email address.
 
-At [ZooTools - web3 Mailchimp alternative](https://zootools.co), we validate thousands of misspelled emails daily with _EmailSpellChecker_ and it helped us to reduce bounced emails by 30%.
+At [ZooTools - web3 Mailchimp alternative](https://zootools.co?ref=github-spell), we validate thousands of misspelled emails daily with _EmailSpellChecker_ and it helped us to reduce bounced emails by 30%.
 
 It's by far the <strong>easiest way to reduce misspelled email addresses</strong> in your web apps and server.
 
@@ -61,17 +61,21 @@ Common use cases:
 - Backend email validation.
 - Newsletter subscriptions.
 
+## Tutorials
+
+Here are some highly-requested tutorials.
+
+- [🟨 JavaScript: Getting started in 5 minutes](#getting-started-in-5-minutes)
+- [🟦 React: Validating email spell in React](./docs/React.md)
+- [🟩 Node: Validating email spell in Node](./docs/Node.md)
+
+If you want to write a tutorial [send a PR](https://github.com/zootools/email-spell-checker/pulls) or [create an issue](https://github.com/zootools/email-spell-checker/issues) if you want to ask for one.
+
 ## Getting Started in 5 minutes
 
 Adding <b>EmailSpellChecker</b> to your project takes less than 5 minutes.
 
 It works on any JavaScript framework (Vue, React, Next.JS, Angular, Svelte, etc) as well as your backend server.
-
-Here are some highly-requested tutorials. If you want to write a tutorial [send a PR](https://github.com/zootools/email-spell-checker/pulls) or [create an issue](https://github.com/zootools/email-spell-checker/issues) if you want to ask for one:
-
-- JavaScript (Continue reading this README.md)
-- [⚛️ React: Validating email spell in React](./docs/React.md)
-- [✅ Node: Validating email spell in Node](./docs/Node.md)
 
 ### Installation
 
@@ -158,17 +162,17 @@ Customer support
 
 Socials
 
+- [@EmailSpell](https://twitter.com/EmailSpell)
 - [@ZooToolsHQ](https://twitter.com/ZooToolsHQ)
-- [@EmailSpellChecker](https://twitter.com/EmailSpellChecker)
 - [@JGFerreiro](https://twitter.com/JGFerreiro)
 
 ## Maintainers
 
 This library is used and maintained by <a href="https://panda.zootools.co/">ZooTools: Growth and marketing tools</a> for ambitious teams.
 
-We use this library heavily in <a href="https://panda.zootools.co/">ZooTools Panda, a mailchimp alternative for sending viral marketing campaigns</a>.
+We use this library heavily in <a href="https://panda.zootools.co/?ref=github-spell">ZooTools Panda, a mailchimp alternative for sending viral marketing campaigns</a>.
 
-You can view examples of the use of this library <a href="https://panda.zootools.co/examples">here</a>
+You can view examples of the use of this library <a href="https://panda.zootools.co/examples?ref=github-spell">here</a>
 
 ## We're hiring!
 
