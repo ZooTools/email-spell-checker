@@ -27,7 +27,7 @@
 
 <b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address.
 
-At [ZooTools - web3 mailchimp alternative](https://zootools.co), we validate thousands of emails daily with _email-spell-checker_ and it helped us to reducing bounced emails by 30%.
+At [ZooTools - web3 mailchimp alternative](https://zootools.co), we validate thousands of emails daily with _EmailSpellChecker_ and it helped us to reducing bounced emails by 30%.
 
 ## The features your deserve
 
@@ -53,7 +53,7 @@ Common use cases:
 
 ## Getting Started in 5 minutes
 
-Adding <b>EmailSpellChecker</b> to your project takes you less than 5 minutes.
+Adding <b>EmailSpellChecker</b> to your project takes less than 5 minutes.
 
 It works on any JavaScript framework (Vue, React, Next.JS, Angular, Svelte, etc) as well as the your backend server.
 
