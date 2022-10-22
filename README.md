@@ -1,5 +1,13 @@
 <p align="center">
   <a href="https://zootools.co">
+    <kbd>
+    <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" style="border-radius: 10px;" />
+    </kbd>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://zootools.co">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true">
       <img src="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" height="140">
@@ -13,19 +21,6 @@
   🔐 Reduce failed authentication ⬆️ Increase emails delivery ⚡️ Built for speed
 </p>
 
----
-
-<p align="center">
-  <b>EmailSpellChecker</b> is the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production daily by top companies to validate thousands of mispelled emails.
-</p>
-
-<p align="center">
-  <a href="https://zootools.co">
-    <kbd>
-    <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" style="border-radius: 10px;" />
-      </kbd>
-  </a>
-</p>
 ## @zootools/email-spell-checker
 
 [![npm package][npm-img]][npm-url]
@@ -33,7 +28,7 @@
 [![Issues][issues-img]][issues-url]
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
 
-<b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address.
+<b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address. It's the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production daily by top companies to validate thousands of mispelled emails.
 
 At [ZooTools - web3 mailchimp alternative](https://zootools.co), we validate thousands of emails daily with _EmailSpellChecker_ and it helped us to reducing bounced emails by 30%.
 
