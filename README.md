@@ -35,7 +35,7 @@ We rewrote and improved [mailcheck.js](https://github.com/mailcheck/mailcheck), 
 
 - ⚡️ <b>Lighting fast</b>: Highly performance email checking using `Sift3` - a fast and accurate string distance algorithm.
 - 🔋 <b>Updated</b>: 39+ popular domains, and 66+ modern TLDs out-of-the-box. Frequently updated.
-- 🚀 <b>Ridiculously small</b>: 0.5KB (minzip) and 0 external dependencies. We agree, big bundles suck!
+- 🚀 <b>Ridiculously small</b>: 1.8KB (minzip) and 0 external dependencies. We agree, big bundles suck!
 - 💙 <b>TypeScript</b>: Fully written in TypeScript, cause we know you love it and we too.
 - ⚙️ <b>Extensible</b>: Allows to pass your custom rules and domains. Tweak it as you need.
 - 🔨 <b>1 minute migration</b>: Same API and functions as mailcheck so you can switch in a sec!
