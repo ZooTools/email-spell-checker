@@ -1,25 +1,30 @@
 <p align="center">
   <a href="https://zootools.co">
-    <kbd>
-    <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" style="border-radius: 10px;" />
-    </kbd>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://zootools.co">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true">
       <img src="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" height="140">
     </picture>
   </a>
 </p>
-
 <h1 align="center">The best way to check a misspelled email address in JavaScript</h1>
 
+<br/>
+
 <p align="center">
-  🔐 Reduce failed authentication ⬆️ Increase emails delivery ⚡️ Built for speed
+  🔐 Reduce failed authentication &nbsp;&nbsp;&nbsp;&nbsp; ⬆️ Increase emails delivery &nbsp;&nbsp;&nbsp;&nbsp; ⚡️ Built for speed
 </p>
+
+<br/>
+
+<p align="center">
+  <a href="https://zootools.co">
+    <kbd>
+    <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" style="border-radius: 10px;" />
+    </kbd>
+  </a>
+</p>
+
+<br/>
 
 ## @zootools/email-spell-checker
 
@@ -28,25 +33,27 @@
 [![Issues][issues-img]][issues-url]
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
 
-<b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests a right domain when your users misspell it in an email address. It's the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production daily by top companies to validate thousands of mispelled emails.
+<b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests the right domain when your users misspell it in an email address.
 
-At [ZooTools - web3 mailchimp alternative](https://zootools.co), we validate thousands of emails daily with _EmailSpellChecker_ and it helped us to reducing bounced emails by 30%.
+At [ZooTools - web3 Mailchimp alternative](https://zootools.co), we validate thousands of misspelled emails daily with _EmailSpellChecker_ and it helped us to reduce bounced emails by 30%.
+
+It's by far the <strong>easiest way to reduce misspelled email addresses</strong> in your web apps and server.
 
 ## The features your deserve
 
-We rewrote and improved [mailcheck.js](https://github.com/mailcheck/mailcheck), a great module that is not longer maintained (7+ years since last update) and we fixed critical bugs like [this](https://github.com/ZooTools/email-spell-checker/pull/3), or [this](https://github.com/ZooTools/email-spell-checker/pull/4).
+We rewrote and improved [mailcheck.js](https://github.com/mailcheck/mailcheck), a great module that is no longer maintained (7+ years since the last update) and we fixed critical bugs like [this](https://github.com/ZooTools/email-spell-checker/pull/3), or [this](https://github.com/ZooTools/email-spell-checker/pull/4).
 
 - ⚡️ <b>Lighting fast</b>: Highly performance email checking using `Sift3` - a fast and accurate string distance algorithm.
 - 🔋 <b>Updated</b>: 39+ popular domains, and 66+ modern TLDs out-of-the-box. Frequently updated.
 - 🚀 <b>Ridiculously small</b>: 1.8KB (minzip) and 0 external dependencies. We agree, big bundles suck!
 - 💙 <b>TypeScript</b>: Fully written in TypeScript, cause we know you love it and we too.
-- ⚙️ <b>Extensible</b>: Allows to pass your custom rules and domains. Tweak it as you need.
-- 🔨 <b>1 minute migration</b>: Same API and functions as mailcheck so you can switch in a sec!
+- ⚙️ <b>Extensible</b>: Allows you to pass your custom rules and domains. Tweak it as you need.
+- 🔨 <b> 1-minute migration</b>: Same API and functions as mailcheck so you can switch in a sec!
 - 🔐 <b>Unit tested</b>: Cause we'd not ever used a library without tests :).
 
-## Why should you validate emails spelling?
+## Why should you validate email spelling?
 
-Typos in the email will harm your business. Specially email deliverability. Common user mispellings such as “gnail” instead of “gmail” or “yaho” instead of “yahoo” can be used as [spam traps](https://sendgrid.com/blog/spam-traps-what-they-are-and-why-you-should-pay-attention-to-them/) by ISPs, and as a result, your emails will be blocked or marked as spam.
+Typos in the email will harm your business. Especially email deliverability. Common user misspellings such as “gnail” instead of “gmail” or “yaho” instead of “yahoo” can be used as [spam traps](https://sendgrid.com/blog/spam-traps-what-they-are-and-why-you-should-pay-attention-to-them/) by ISPs, and as a result, your emails will be blocked or marked as spam.
 
 Common use cases:
 
@@ -58,9 +65,9 @@ Common use cases:
 
 Adding <b>EmailSpellChecker</b> to your project takes less than 5 minutes.
 
-It works on any JavaScript framework (Vue, React, Next.JS, Angular, Svelte, etc) as well as the your backend server.
+It works on any JavaScript framework (Vue, React, Next.JS, Angular, Svelte, etc) as well as your backend server.
 
-Here some highly-requested tutorials. If you want to write a tutorial [send a PR](https://github.com/zootools/email-spell-checker/pulls) or [create an issue](https://github.com/zootools/email-spell-checker/issues) if you want to ask for one:
+Here are some highly-requested tutorials. If you want to write a tutorial [send a PR](https://github.com/zootools/email-spell-checker/pulls) or [create an issue](https://github.com/zootools/email-spell-checker/issues) if you want to ask for one:
 
 - JavaScript (Continue reading this README.md)
 - [⚛️ React: Validating email spell in React](./docs/React.md)
@@ -86,7 +93,7 @@ Using the library is really easy:
 
 - Import it.
 - Call `run` function with the email you want to validate.
-- Get the suggested email, and prompt your user to accept suggestion.
+- Get the suggested email, and prompt your user to accept the suggestion.
 
 ```js
 import emailSpellChecker from '@zootools/email-spell-checker';
@@ -143,7 +150,7 @@ Tweet us [@ZooToolsHQ](https://twitter.com/ZooToolsHQ) and [@JGFerreiro](https:/
 Updates
 
 - 🎯 [Join our mailing lists to get useful information](https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb) about this and other useful open source libraries: https://form.waitlistpanda.com/go/8H98mVOzZhwGMalf8nfb
-- 📆 Click "Watch repo" on Github and ⭐️ the repo to get useful information.
+- 📆 Click "Watch repo" on GitHub and ⭐️ the repo to be notified of useful information.
 
 Customer support
 
