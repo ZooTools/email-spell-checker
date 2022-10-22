@@ -140,6 +140,19 @@ describe('mailSpellChecker', () => {
         full: 'test@zoho.com',
       });
     });
+
+    it('validates emails with empty spaces', function () {
+      expect(
+        run({
+          email: '         test@gmal.com',
+          domains: domains,
+        })
+      ).toEqual({
+        address: 'test',
+        domain: 'gmail.com',
+        full: 'test@gmail.com',
+      });
+    });
   });
 
   describe('parseEmail', function () {
