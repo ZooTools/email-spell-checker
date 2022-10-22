@@ -18,7 +18,7 @@
   <img src="assets/typesense_books_demo.gif?raw=true" alt="Typesense Demo" width="459" />
 </p>
 
-# @zootools/email-spell-checker
+## @zootools/email-spell-checker
 
 [![npm package][npm-img]][npm-url]
 [![npm package][bundlephobia-img]][bundlephobia-url]
@@ -136,7 +136,7 @@ Who uses EmailSpellChecker?
 
 We're putting together a list of happy users of EmailSpellChecker.
 
-Tweet [@ZooToolsHQ](https://twitter.com/ZooToolsHQ) and [@JGFerreiro](https://twitter.com/JGFerreiro) if you are interested to appear.
+Tweet us [@ZooToolsHQ](https://twitter.com/ZooToolsHQ) and [@JGFerreiro](https://twitter.com/JGFerreiro) if you are interested to appear.
 
 
 Customer support & updates
