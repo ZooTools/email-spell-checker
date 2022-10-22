@@ -34,14 +34,18 @@ At [ZooTools - web3 mailchimp alternative](https://zootools.co), we validate tho
 We rewrote and improved [mailcheck.js](https://github.com/mailcheck/mailcheck), a great module that is not longer maintained (7+ years since last update) and that contains a [bug](https://github.com/ZooTools/email-spell-checker/pull/3).
 
 - ⚡️ <b>Lighting fast</b>: Highly performance email checking using `Sift3` - a fast and accurate string distance algorithm.
-- 🚀 <b>Ridiculously small</b>: 2KB (minzip) and 0 external dependencies. We agree, big bundles suck!
-- 🔋 <b>Updated</b>: 39+ popular domains, and 66+ modern TLDs out-of-the-box. Frequent updates.
+- 🔋 <b>Updated</b>: 39+ popular domains, and 66+ modern TLDs out-of-the-box. Frequently updated.
+- 🚀 <b>Ridiculously small</b>: 0.5KB (minzip) and 0 external dependencies. We agree, big bundles suck!
 - 💙 <b>TypeScript</b>: Fully written in TypeScript, cause we know you love it and we too.
 - ⚙️ <b>Extensible</b>: Allows to pass your custom rules and domains. Tweak it as you need.
 - 🔨 <b>1 minute migration</b>: Same API and functions as mailcheck so you can switch in a sec!
 - 🔐 <b>Unit tested</b>: Cause we'd not ever used a library without tests :).
 
-## Some good use cases
+## Why should you validate emails spelling?
+
+Typos in the email will harm your business. Specially email deliverability. Common user mispellings such as “gnail” instead of “gmail” or “yaho” instead of “yahoo” can be used as [spam traps](https://sendgrid.com/blog/spam-traps-what-they-are-and-why-you-should-pay-attention-to-them/) by ISPs, and as a result, your emails will be blocked or marked as spam.
+
+Common use cases:
 
 - User authentication (login, signup, email recovery).
 - Backend email validation.
