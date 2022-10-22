@@ -7,22 +7,25 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://zootools.co">
-    <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" />
-  </a>
-</p>
-
 <h1 align="center">The best way to check a misspelled email address in JavaScript</h1>
 
 <p align="center">
   🔐 Reduce failed authentication ⬆️ Increase emails delivery ⚡️ Built for speed
 </p>
 
+---
+
 <p align="center">
   <b>EmailSpellChecker</b> is the <strong>easiest way to reduce misspelled email addresses in your web apps and server</strong>. Used in production daily by top companies to validate thousands of mispelled emails.
 </p>
 
+<p align="center">
+  <a href="https://zootools.co">
+    <kbd>
+    <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" style="border-radius: 10px;" />
+      </kbd>
+  </a>
+</p>
 ## @zootools/email-spell-checker
 
 [![npm package][npm-img]][npm-url]
