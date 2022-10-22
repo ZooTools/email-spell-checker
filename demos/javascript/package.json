@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "EmailSpellChecker JavaScript demo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check-email": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZooTools <github@zootools.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@zootools/email-spell-checker": "^1.8.1"
+  }
+}

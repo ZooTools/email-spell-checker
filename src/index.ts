@@ -6,4 +6,5 @@ const MailSpellChecker = {
   POPULAR_DOMAINS,
 };
 
+export { run, POPULAR_DOMAINS };
 export default MailSpellChecker;
