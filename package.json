@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@zootools/email-spell-checker",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "mailSpellChecker.js (mail spell checker) is a lightweight module that suggests a right domain when your users misspell it in an email address",
   "main": "./dist/index.js",
   "files": [
@@ -13,6 +13,7 @@
     "cm": "cz",
     "lint": "eslint ./src/ --fix",
     "prepare": "husky install",
+    "release": "npm run test && npm run install && npm run build && npm publish",
     "semantic-release": "semantic-release",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
