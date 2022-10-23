@@ -65,9 +65,9 @@ Common use cases:
 
 Here are some highly-requested tutorials.
 
-- [🟨 JavaScript: Getting started in 5 minutes](#getting-started-in-5-minutes)
+- [🟨 JavaScript: Getting started in 5 minutes](./demos/javascript/)
 - [🟦 React: Validating email spell in React](./docs/React.md)
-- [🟩 Node: Validating email spell in Node](./docs/Node.md)
+- [🟩 Node with Express.js: Validating email spell in Node](./docs/Node.md)
 
 If you want to write a tutorial [send a PR](https://github.com/zootools/email-spell-checker/pulls) or [create an issue](https://github.com/zootools/email-spell-checker/issues) if you want to ask for one.
 

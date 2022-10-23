@@ -11,9 +11,12 @@ function getOptions(userOptions: UserOptions): Options {
       userOptions.secondLevelDomains || DEFAULT_CONFIG.secondLevelDomains,
     distanceFunction:
       userOptions.distanceFunction || DEFAULT_CONFIG.distanceFunction,
-    domainThreshold: DEFAULT_CONFIG.domainThreshold,
-    secondLevelThreshold: DEFAULT_CONFIG.secondLevelThreshold,
-    topLevelThreshold: DEFAULT_CONFIG.topLevelThreshold,
+    domainThreshold:
+      userOptions.domainThreshold || DEFAULT_CONFIG.domainThreshold,
+    secondLevelThreshold:
+      userOptions.secondLevelThreshold || DEFAULT_CONFIG.secondLevelThreshold,
+    topLevelThreshold:
+      userOptions.topLevelThreshold || DEFAULT_CONFIG.topLevelThreshold,
     suggested: userOptions.suggested || undefined,
     empty: userOptions.suggested || undefined,
   };

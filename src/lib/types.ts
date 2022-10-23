@@ -9,8 +9,11 @@ interface MailSuggestion {
 interface UserOptions {
   email: string;
   domains?: string[];
+  domainThreshold?: number;
   topLevelDomains?: string[];
+  topLevelThreshold?: number;
   secondLevelDomains?: string[];
+  secondLevelThreshold?: number;
   distanceFunction?: DistanceFunction;
   // Callbacks code. Totally optional
   suggested?: (suggestion?: MailSuggestion) => void;
