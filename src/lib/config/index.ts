@@ -32,7 +32,6 @@ const POPULAR_DOMAINS = [
   'rogers.com',
   'verizon.net',
   'rocketmail.com',
-  'google.com',
   'optonline.net',
   'sbcglobal.net',
   // aol
