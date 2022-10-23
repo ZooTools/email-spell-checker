@@ -129,7 +129,7 @@ const DEFAULT_CONFIG = {
   domains: POPULAR_DOMAINS,
 
   secondLevelThreshold: 2,
-  secondLevelDomains: ['yahoo', 'hotmail', 'mail', 'live', 'outlook', 'gmx'],
+  secondLevelDomains: ['yahoo', 'hotmail', 'mail', 'live', 'outlook'],
 
   topLevelThreshold: 2,
   topLevelDomains: POPULAR_TLDS,
