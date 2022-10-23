@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://zootools.co/?ref=github-spell">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true">
-      <img src="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" height="140">
+      <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" />
+      <img src="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" width="456px" height="140px" />
     </picture>
   </a>
 </p>
