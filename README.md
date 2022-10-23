@@ -93,11 +93,7 @@ yarn add @zootools/email-spell-checker
 
 ### Basic Example
 
-Using the library is really easy:
-
-- Import it.
-- Call `run` function with the email you want to validate.
-- Get the suggested email, and prompt your user to accept the suggestion.
+Using the library is easy. Import it, call `run` function with the email you want to validate, and get a suggestion.
 
 ```js
 import emailSpellChecker from '@zootools/email-spell-checker';
@@ -108,7 +104,7 @@ const suggestedEmail = emailSpellChecker.run({
 
 if (suggestedEmail) {
   // DEV: Handle the suggestion.
-  // E.g: tell the user their email is wrong and offer to apply your suggestion
+  // E.g: tell the user their email is wrong and offer to apply your suggestion.
 
   console.log(suggestedEmail);
   // {
