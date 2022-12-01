@@ -110,7 +110,7 @@ if (suggestedEmail) {
   // {
   //    address: "jorge"
   //    domain: "gmail.com"
-  //    suggestedEmail: "jorge@gmail.com"
+  //    full: "jorge@gmail.com"
   // }
 }
 ```
