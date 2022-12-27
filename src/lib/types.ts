@@ -1,3 +1,16 @@
+// This is used to attaching the mailSpellChecker to the window object.
+type MailSpellChecker = {
+  run: (userOptions: UserOptions) => MailSuggestion | undefined;
+  POPULAR_DOMAINS: string[];
+  POPULAR_TLDS: string[];
+};
+
+declare global {
+  interface Window {
+    mailSpellChecker: MailSpellChecker;
+  }
+}
+
 type DistanceFunction = (a: string, b: string, threshold?: number) => number;
 
 interface MailSuggestion {
@@ -42,4 +55,11 @@ interface EmailsPart {
   address: string;
 }
 
-export { DistanceFunction, EmailsPart, MailSuggestion, Options, UserOptions };
+export {
+  DistanceFunction,
+  EmailsPart,
+  MailSpellChecker,
+  MailSuggestion,
+  Options,
+  UserOptions,
+};

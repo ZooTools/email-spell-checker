@@ -2,6 +2,8 @@
 
 import sift3Distance from '../fuzzy-detection/sift3-distance';
 
+const isBrowserContext = typeof window !== 'undefined';
+
 /***
  * Default list of popular emails for 2022 and onwards.
  * https://www.mailmunch.com/blog/best-email-service-providers
@@ -137,4 +139,4 @@ const DEFAULT_CONFIG = {
   distanceFunction: sift3Distance,
 };
 
-export { DEFAULT_CONFIG, POPULAR_DOMAINS, POPULAR_TLDS };
+export { DEFAULT_CONFIG, POPULAR_DOMAINS, POPULAR_TLDS, isBrowserContext };
