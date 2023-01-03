@@ -93,6 +93,7 @@ const POPULAR_TLDS = [
   'sg',
   'hu',
   'uk',
+  'sk',
   // popular TLDs that startup use in 2022
   // https://thewebsiteflip.com/domains/funded-startup-brands-2021/#:~:text=from%20the%20data.-,1.,TLDs%20for%20the%20foreseeable%20future.
   // https://martijnoud.com/most-popular-tld-crypto/
