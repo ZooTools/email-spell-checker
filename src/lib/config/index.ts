@@ -94,7 +94,7 @@ const POPULAR_TLDS = [
   'hu',
   'uk',
   'sk',
-  // Other popular domains to complete global 50 list
+  // Country specific popular domains
   'ar',
   'cf',
   'cl',
