@@ -127,6 +127,7 @@ You can replace EmailSpellChecker's default domain/TLD suggestions by supplying 
 
 ```js
 emailSpellChecker.run({
+  email: 'jorge@gmaik.co',
   domains: [...emailSpellChecker.POPULAR_DOMAINS, 'customdomain.com'], // replaces existing domains
   secondLevelDomains: ['domain', 'yetanotherdomain'], // replaces existing SLDs
   topLevelDomains: ['com.au', 'ru'], // replaces existing TLDs
