@@ -17,11 +17,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://zootools.co?ref=github-spell">
-    <kbd>
-    <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2_looped.gif?raw=true" alt="Did you say? The best email spell checker in JavaScript" width="700" style="border-radius: 10px;" />
-    </kbd>
-  </a>
+  <img src="https://open-source.zootools.co/email-spell-checker/2022_10_22_demo_version_2_looped.gif" alt="Alt Text">
 </p>
 
 <br/>
