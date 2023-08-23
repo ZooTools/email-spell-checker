@@ -10,20 +10,17 @@ function AppForm() {
   let debouncedEmail = useDebounce(email, 400);
 
   useEffect(() => {
-    // If emails length > 0 after trimming
-    if (debouncedEmail.trim().length) {
-      const suggested = run({
-        email: debouncedEmail,
-      });
+    const suggested = run({
+      email: debouncedEmail,
+    });
 
-      if (suggested) {
-        setSuggestedEmail(suggested);
-      } else {
-        setForceCloseModal(true);
-        setTimeout(() => {
-          setSuggestedEmail({});
-        }, 500);
-      }
+    if (suggested) {
+      setSuggestedEmail(suggested);
+    } else {
+      setForceCloseModal(true);
+      setTimeout(() => {
+        setSuggestedEmail({});
+      }, 500);
     }
   }, [debouncedEmail]);
 
