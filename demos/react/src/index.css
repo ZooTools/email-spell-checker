@@ -1,0 +1,110 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+#signup-button {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #cecece;
+  background-color: whitesmoke;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+}
+
+#signup-button:hover {
+  background-color: #e7e7e7;
+}
+
+#nav-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #cecece;
+  font-size: 30px;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+#email-container {
+  position: relative;
+}
+
+#email-icon {
+  position: absolute;
+  top: 19px;
+  left: 7px;
+}
+
+#email-input {
+  text-indent: 25px;
+}
+
+#email-warning-container {
+  display: flex;
+  align-items: center;
+  height: 0px;
+  opacity: 0;
+  width: 100%;
+  background-color: #fee7ba;
+  transition: height, opacity 1.5s, padding, margin-bottom, 0.5s;
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+
+#warning-dismiss {
+  background-color: transparent;
+  border: 0;
+  margin-right: 5px;
+}
+
+#email-warning-container.view {
+  height: 100%;
+  opacity: 100%;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+#warning-dismiss {
+  cursor: pointer;
+}
+
+#warning {
+  cursor: pointer;
+  display: flex;
+  gap: 3px;
+}
+
+#warning-email {
+  text-decoration: underline;
+}
+
+.input {
+  outline: 0;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+  indent: 5px;
+}
+
+.input:focus {
+  border: 1px solid #236adb;
+}
