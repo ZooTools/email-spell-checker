@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://zootools.co/?ref=github-spell">
+  <a href="https://zootools.co/?ref=email-spell-checker-github">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" />
       <img src="https://open-source.zootools.co/email-spell-checker/logo_email-spell-checker.png?raw=true" width="456px" />
@@ -31,7 +31,7 @@
 
 <b>EmailSpellChecker</b> is a lightweight JavaScript module written in TypeScript that suggests the right domain when your users misspell it in an email address.
 
-At [ZooTools - web3 Mailchimp alternative](https://zootools.co?ref=github-spell), we validate thousands of misspelled emails daily with _EmailSpellChecker_ and it helped us to reduce bounced emails by 30%.
+At [ZooTools, an email marketing and referral tool](https://zootools.co?ref=email-spell-checker-github), we validate thousands of misspelled emails daily with _EmailSpellChecker_ and it helped us to reduce bounced emails by 30%.
 
 It's by far the <strong>easiest way to reduce misspelled email addresses</strong> in your web apps and server.
 
@@ -94,20 +94,17 @@ Using the library is easy. Import it, call the `run` function with the email you
 ```js
 import emailSpellChecker from '@zootools/email-spell-checker';
 
-const suggestedEmail = emailSpellChecker.run({
-  email: 'jorge@gmaik.co',
-});
+const suggestion = emailSpellChecker.run({
+  email: 'jorge@gmaik.co'
+})
 
-if (suggestedEmail) {
-  // DEV: Handle the suggestion.
-  // E.g: tell the user their email is wrong and offer to apply your suggestion.
+if (suggestion) {
+  // dev: user made a typo -- handle the suggestion.
+  // for example: show a message to fix the email.
 
-  console.log(suggestedEmail);
-  // {
-  //    address: "jorge"
-  //    domain: "gmail.com"
-  //    full: "jorge@gmail.com"
-  // }
+  console.log(suggestion.address); // jorge
+  console.log(suggestion.domain); // gmail.com
+  console.log(suggestion.full); // jorge@gmail.com
 }
 ```
 
@@ -155,7 +152,6 @@ Customer support
 
 Socials
 
-- [@EmailSpell](https://twitter.com/EmailSpell)
 - [@ZooToolsHQ](https://twitter.com/ZooToolsHQ)
 - [@JGFerreiro](https://twitter.com/JGFerreiro)
 
@@ -172,7 +168,7 @@ You can view examples of the use of this library <a href="https://panda.zootools
 Badass developer looking for a job? [Join the grind](https://www.notion.so/zootools/Careers-at-ZooTools-2e2815794b14415daca297506c54cb69)!
 
 <p>
-  <a href="https://zootools.co">
+  <a href="https://zootools.co?ref=email-spell-checker-github">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://open-source.zootools.co/made_with_love.png?raw=true">
       <img src="https://open-source.zootools.co/made_with_love.png?raw=true" height="80">
