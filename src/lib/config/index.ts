@@ -38,6 +38,7 @@ const POPULAR_DOMAINS = [
   'aol.com',
   'aim.com',
   'me.com',
+  'mac.com',
   'mailw.com',
   'btinternet.com',
   'charter.net',
@@ -145,6 +146,7 @@ const POPULAR_TLDS = [
   'software',
   'to',
   'tech',
+  'tv',
 ];
 
 const DEFAULT_CONFIG = {
