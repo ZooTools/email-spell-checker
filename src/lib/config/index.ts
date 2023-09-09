@@ -146,6 +146,7 @@ const POPULAR_TLDS = [
   'software',
   'to',
   'tech',
+  'tv',
 ];
 
 const DEFAULT_CONFIG = {
