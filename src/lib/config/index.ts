@@ -38,6 +38,7 @@ const POPULAR_DOMAINS = [
   'aol.com',
   'aim.com',
   'me.com',
+  'mac.com',
   'mailw.com',
   'btinternet.com',
   'charter.net',
