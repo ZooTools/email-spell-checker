@@ -72,7 +72,6 @@
 #warning-dismiss {
   background-color: transparent;
   border: 0;
-  margin-right: 5px;
 }
 
 #email-warning-container.view {
@@ -91,6 +90,7 @@
   display: flex;
   gap: 3px;
 }
+
 
 #warning-email {
   text-decoration: underline;
